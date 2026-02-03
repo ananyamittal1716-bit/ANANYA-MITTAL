@@ -110,7 +110,7 @@ const siteConfig = {
       title: 'Dashboard Creation',
       cardImage: getAsset('images/project/placeholder.png'),
       description: 'Built an interactive dashboard to visualize key metrics and support quick, data-driven insights.',
-      Githublink: 'https://github.com/your-username/your-project',
+      Githublink: 'https://github.com/ananyamittal1716-bit/ANANYA-MITTAL/blob/main/public/images/project/projectimg.png',
     },
     {
       title: 'Visual Storytelling',
