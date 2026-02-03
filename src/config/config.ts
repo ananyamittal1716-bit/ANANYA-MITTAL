@@ -8,7 +8,7 @@ const siteConfig = {
   personal: {
     name: 'ANANYA',
     title: 'MITTAL | Branding and Decor Intern ',
-    image: getAsset('images/profile.png'), // Customize or replace with your profile image
+    image: getAsset('images/IMAGE.PNG.png'), // Customize or replace with your profile image
     description:
       'I have experience in branding and décor through college clubs and am currently working as an intern at Atelier Enterprises. Alongside this, I am pursuing a BSc in Economics with Data Science.\n' +
       '\n' +
