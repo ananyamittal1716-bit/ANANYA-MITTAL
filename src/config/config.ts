@@ -12,7 +12,7 @@ const siteConfig = {
     description:
       'I have experience in branding and décor through college clubs and am currently working as an intern at Atelier Enterprises. Alongside this, I am pursuing a BSc in Economics with Data Science.\n' +
       '\n' +
-      'Mention your institution or company, areas of interest, and what you teach or build.\n' +
+      'Intern at Atelier Enterprises and BSc Economics with Data Science student, interested in building strong brand identities through creative décor and visual design.\n' +
       '\n' +
       'Undergraduate student pursuing a BSc in Economics with Data Science, complemented by hands-on experience in branding and décor gained through college clubs and my role as an intern at Atelier Enterprises.\n' +
       '\n' +
@@ -123,17 +123,17 @@ const siteConfig = {
 
   research: [
     {
-      title: 'Your Paper or Research Title',
-      authors: 'Your Name, Collaborator Name',
-      conferences: 'Conference or Journal, Publisher',
-      researchYr: 2024,
+      title: 'Branding and Marketing Angle',
+      authors: 'Ananya Mittal, K',
+      conferences: 'Journal, Z',
+      researchYr: 2025,
   image: getAsset('images/research/placeholder.png'),
       citation: {
         vancouver:
-          'Author A, Author B. Title of the work. Venue, Year. DOI/URL.',
+          'Author M, Author K. Branding and Marketing Angle. Bangalore, 2025. DOI/URL.',
       },
       abstract:
-        'One or two sentences summarizing the contribution...',
+        'Brand Perception and Consumer Response: A Data-Based Study and Impact of Visual Branding on Consumer Purchase Decisions',
       link: 'https://example.com/your-publication',
     },
   ],
