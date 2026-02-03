@@ -6,30 +6,30 @@ export const getAsset = (path: string) => {
 
 const siteConfig = {
   personal: {
-    name: 'Put your name inside the quote',
-    title: 'Your Title | Your Role',
+    name: 'ANANYA',
+    title: 'MITTAL | Branding and Decor Intern ',
     image: getAsset('images/profile.png'), // Customize or replace with your profile image
     description:
-      'Write a short bio here describing your background and focus. Keep it to 2–4 sentences.\n' +
+      'I have experience in branding and décor through college clubs and am currently working as an intern at Atelier Enterprises. Alongside this, I am pursuing a BSc in Economics with Data Science.\n' +
       '\n' +
       'Mention your institution or company, areas of interest, and what you teach or build.\n' +
       '\n' +
-      'Summarize your education or certifications briefly and highlight your practical work.\n' +
+      'Undergraduate student pursuing a BSc in Economics with Data Science, complemented by hands-on experience in branding and décor gained through college clubs and my role as an intern at Atelier Enterprises.\n' +
       '\n' +
-      'Optional: Add notable books, workshops, or training you deliver.',
-    tagline: 'Add a concise personal tagline here.',
-    location: 'Your City, Country',
+      'As an intern at Atelier Enterprises, I conduct online workshops focused on branding and decor, sharing practical insights in visual styling and brand aesthetics.',
+    tagline: 'Visuals that speak before words do.',
+    location: 'Bangalore, India',
   },
 
   seo: {
-    title: 'Your Name – Your Title',
+    title: 'Ananya – Mittal',
     description: "Portfolio website showcasing your education, research, projects, and experience.",
   },
 
-  animatedText: ['Your Role', 'Your Focus', 'Your Interest', 'Builder'],
+  animatedText: ['Branding & Decor Associate', 'Where Brands Meet Spaces', 'Creative Visual Storytelling', 'Creative Visual Storytelling'],
 
   navigation: [
-    { name: 'Home', url: '/' },
+    { name: 'Home', url: '/home' },
     { name: 'Projects', url: '/projects' },
     { name: 'Research', url: '/research' },
     { name: 'Education', url: '/education' },
@@ -43,7 +43,7 @@ const siteConfig = {
   // Add more entries here as you add more static HTML blog files under public/static_page/
   blogs: [
     {
-      title: 'Your Blog Title',
+      title: 'Designing Experiences Through Branding & Decor',
       url: getAsset('static_page/project_management_blog.html'), // Replace with your static HTML page
     },
   ],
@@ -51,34 +51,34 @@ const siteConfig = {
 
   education: [
     {
-      institution: 'Your Institution',
-      degree: 'Your Degree',
-      year: 'YYYY–YYYY',
+      institution: 'CHRIST UNIVERSITY BANNERGHATTA ROAD CAMPUS',
+      degree: 'Bachelors in Economics with Data Science',
+      year: '2025–2028',
       image: getAsset('images/education/placeholder.png'),
-      description: ['Brief description of your focus or thesis'],
+      description: ['Focused on economic analysis using data science tools and quantitative methods.'],
     },
     {
-      institution: 'Another Institution',
+      institution: 'DELHI PUBLIC SCHOOL DURG',
       degree: 'Another Degree or Certificate',
-      year: 'YYYY–YYYY',
+      year: '2023–2024',
       image: getAsset('images/education/placeholder.png'),
-      description: ['Key topics or skills learned'],
+      description: ['Completed 10+2 graduation in commerec field along with applied mathematics.'],
     },
   ],
 
 // ✅ Unified MOOC + Certifications Section
   certifications: [
     {
-      title: 'Your Certificate or Specialization',
+      title: 'Specialised in Data Visualisation',
       specialization: true,
       file: getAsset('images/education/Certifications/download.svg'),
       certificates: [
-        { name: 'Course 1', file: getAsset('images/education/Certifications/download.svg') },
-        { name: 'Course 2', file: getAsset('images/education/Certifications/download.svg') },
+        { name: 'Event Branding', file: getAsset('images/education/Certifications/download.svg') },
+        { name: 'Visual styling', file: getAsset('images/education/Certifications/download.svg') },
       ],
     },
     {
-      title: 'Another Certificate',
+      title: 'Certified dancer',
       file: getAsset('images/education/Certifications/download.svg'),
     },
   ],
@@ -88,18 +88,18 @@ const siteConfig = {
   // ✅ Experience section updated
   experience: [
     {
-      title: 'Your Role',
+      title: 'Branding and Decor Associate',
       cardImage: getAsset('images/experience/placeholder.png'),
-      place: 'Your Organization',
-      time: '(MMM YYYY – Present)',
-      desp: ['Brief responsibility 1', 'Brief responsibility 2'],
+      place: 'Atelier Enterprises',
+      time: '(2026 – Present)',
+      desp: ['Event Branding', 'Visual Styling'],
     },
     {
-      title: 'Previous Role',
+      title: 'Event planner/Volunteer',
       cardImage: getAsset('images/experience/placeholder.png'),
-      place: 'Previous Organization',
-      time: '(MMM YYYY – MMM YYYY)',
-      desp: ['Key contribution 1', 'Key contribution 2'],
+      place: 'SBCT Charitable Trust',
+      time: '(2024 – Present)',
+      desp: ['Helping poor people to uplift their living in all the ways possible', ''],
     },
   ],
 
@@ -107,15 +107,15 @@ const siteConfig = {
   // ✅ Projects section updated
   projects: [
     {
-      title: 'Project Title 1',
+      title: 'Dashboard Creation',
       cardImage: getAsset('images/project/placeholder.png'),
-      description: 'Short description of your project and what it does...',
+      description: 'Built an interactive dashboard to visualize key metrics and support quick, data-driven insights.',
       Githublink: 'https://github.com/your-username/your-project',
     },
     {
-      title: 'Project Title 2',
+      title: 'Visual Storytelling',
       cardImage: getAsset('images/project/placeholder.png'),
-      description: 'Another project summary...',
+      description: 'Using data visualisation tools to create visuals and using them to narrate the economic problems.',
       Githublink: 'https://github.com/your-username/another-project',
     },
   ],
@@ -148,7 +148,7 @@ const siteConfig = {
   ],
 
   contact: {
-    email: 'your.email@example.com',
+    email: 'ananyamittal1234@gmail.com',
     linkedin: 'https://www.linkedin.com/in/your-linkedin/',
     github: 'https://github.com/your-username',
     googleScholar: 'https://scholar.google.com/citations?user=YOURID',
